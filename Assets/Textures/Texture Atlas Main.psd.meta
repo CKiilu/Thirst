@@ -1,9 +1,644 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 6bffc72a7b941df4092f30d8d1ccf22b
 timeCreated: 1475258599
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName: {}
+=======
+guid: 1deac3c62257376438d6dc76b1491935
+timeCreated: 1475260395
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Texture Atlas Main_0
+    21300002: Texture Atlas Main_1
+    21300004: Texture Atlas Main_2
+    21300006: Texture Atlas Main_3
+    21300008: Texture Atlas Main_4
+    21300010: Texture Atlas Main_5
+    21300012: Texture Atlas Main_6
+    21300014: Texture Atlas Main_7
+    21300016: Texture Atlas Main_8
+    21300018: Texture Atlas Main_9
+    21300020: Texture Atlas Main_10
+    21300022: Texture Atlas Main_11
+    21300024: Texture Atlas Main_12
+    21300026: Texture Atlas Main_13
+    21300028: Texture Atlas Main_14
+    21300030: Texture Atlas Main_15
+    21300032: Texture Atlas Main_16
+    21300034: Texture Atlas Main_17
+    21300036: Texture Atlas Main_18
+    21300038: Texture Atlas Main_19
+    21300040: Texture Atlas Main_20
+    21300042: Texture Atlas Main_21
+    21300044: Texture Atlas Main_22
+    21300046: Texture Atlas Main_23
+    21300048: Texture Atlas Main_24
+    21300050: Texture Atlas Main_25
+    21300052: Texture Atlas Main_26
+    21300054: Texture Atlas Main_27
+    21300056: Texture Atlas Main_28
+    21300058: Texture Atlas Main_29
+    21300060: Texture Atlas Main_30
+    21300062: Texture Atlas Main_31
+    21300064: Texture Atlas Main_32
+    21300066: Texture Atlas Main_33
+    21300068: Texture Atlas Main_34
+    21300070: Texture Atlas Main_35
+    21300072: Texture Atlas Main_36
+    21300074: Texture Atlas Main_37
+    21300076: Texture Atlas Main_38
+    21300078: Texture Atlas Main_39
+    21300080: Texture Atlas Main_40
+    21300082: Texture Atlas Main_41
+    21300084: Texture Atlas Main_42
+    21300086: Texture Atlas Main_43
+    21300088: Texture Atlas Main_44
+    21300090: Texture Atlas Main_45
+    21300092: Texture Atlas Main_46
+    21300094: Texture Atlas Main_47
+    21300096: Texture Atlas Main_48
+    21300098: Texture Atlas Main_49
+    21300100: Texture Atlas Main_50
+    21300102: Texture Atlas Main_51
+    21300104: Texture Atlas Main_52
+    21300106: Texture Atlas Main_53
+    21300108: Texture Atlas Main_54
+    21300110: Texture Atlas Main_55
+    21300112: Texture Atlas Main_56
+    21300114: Texture Atlas Main_57
+    21300116: Texture Atlas Main_58
+    21300118: Texture Atlas Main_59
+    21300120: Texture Atlas Main_60
+    21300122: Texture Atlas Main_61
+    21300124: Texture Atlas Main_62
+    21300126: Texture Atlas Main_63
+    21300128: Texture Atlas Main_64
+    21300130: Texture Atlas Main_65
+    21300132: Texture Atlas Main_66
+    21300134: Texture Atlas Main_67
+    21300136: Texture Atlas Main_68
+    21300138: Texture Atlas Main_69
+    21300140: Texture Atlas Main_70
+    21300142: Texture Atlas Main_71
+    21300144: Texture Atlas Main_72
+    21300146: Texture Atlas Main_73
+    21300148: Texture Atlas Main_74
+    21300150: Texture Atlas Main_75
+    21300152: Texture Atlas Main_76
+    21300154: Texture Atlas Main_77
+    21300156: Texture Atlas Main_78
+    21300158: Texture Atlas Main_79
+    21300160: Texture Atlas Main_80
+    21300162: Texture Atlas Main_81
+    21300164: Texture Atlas Main_82
+    21300166: Texture Atlas Main_83
+    21300168: Texture Atlas Main_84
+    21300170: Texture Atlas Main_85
+    21300172: Texture Atlas Main_86
+    21300174: Texture Atlas Main_87
+    21300176: Texture Atlas Main_88
+    21300178: Texture Atlas Main_89
+    21300180: Texture Atlas Main_90
+    21300182: Texture Atlas Main_91
+    21300184: Texture Atlas Main_92
+    21300186: Texture Atlas Main_93
+    21300188: Texture Atlas Main_94
+    21300190: Texture Atlas Main_95
+    21300192: Texture Atlas Main_96
+    21300194: Texture Atlas Main_97
+    21300196: Texture Atlas Main_98
+    21300198: Texture Atlas Main_99
+    21300200: Texture Atlas Main_100
+    21300202: Texture Atlas Main_101
+    21300204: Texture Atlas Main_102
+    21300206: Texture Atlas Main_103
+    21300208: Texture Atlas Main_104
+    21300210: Texture Atlas Main_105
+    21300212: Texture Atlas Main_106
+    21300214: Texture Atlas Main_107
+    21300216: Texture Atlas Main_108
+    21300218: Texture Atlas Main_109
+    21300220: Texture Atlas Main_110
+    21300222: Texture Atlas Main_111
+    21300224: Texture Atlas Main_112
+    21300226: Texture Atlas Main_113
+    21300228: Texture Atlas Main_114
+    21300230: Texture Atlas Main_115
+    21300232: Texture Atlas Main_116
+    21300234: Texture Atlas Main_117
+    21300236: Texture Atlas Main_118
+    21300238: Texture Atlas Main_119
+    21300240: Texture Atlas Main_120
+    21300242: Texture Atlas Main_121
+    21300244: Texture Atlas Main_122
+    21300246: Texture Atlas Main_123
+    21300248: Texture Atlas Main_124
+    21300250: Texture Atlas Main_125
+    21300252: Texture Atlas Main_126
+    21300254: Texture Atlas Main_127
+    21300256: Texture Atlas Main_128
+    21300258: Texture Atlas Main_129
+    21300260: Texture Atlas Main_130
+    21300262: Texture Atlas Main_131
+    21300264: Texture Atlas Main_132
+    21300266: Texture Atlas Main_133
+    21300268: Texture Atlas Main_134
+    21300270: Texture Atlas Main_135
+    21300272: Texture Atlas Main_136
+    21300274: Texture Atlas Main_137
+    21300276: Texture Atlas Main_138
+    21300278: Texture Atlas Main_139
+    21300280: Texture Atlas Main_140
+    21300282: Texture Atlas Main_141
+    21300284: Texture Atlas Main_142
+    21300286: Texture Atlas Main_143
+    21300288: Texture Atlas Main_144
+    21300290: Texture Atlas Main_145
+    21300292: Texture Atlas Main_146
+    21300294: Texture Atlas Main_147
+    21300296: Texture Atlas Main_148
+    21300298: Texture Atlas Main_149
+    21300300: Texture Atlas Main_150
+    21300302: Texture Atlas Main_151
+    21300304: Texture Atlas Main_152
+    21300306: Texture Atlas Main_153
+    21300308: Texture Atlas Main_154
+    21300310: Texture Atlas Main_155
+    21300312: Texture Atlas Main_156
+    21300314: Texture Atlas Main_157
+    21300316: Texture Atlas Main_158
+    21300318: Texture Atlas Main_159
+    21300320: Texture Atlas Main_160
+    21300322: Texture Atlas Main_161
+    21300324: Texture Atlas Main_162
+    21300326: Texture Atlas Main_163
+    21300328: Texture Atlas Main_164
+    21300330: Texture Atlas Main_165
+    21300332: Texture Atlas Main_166
+    21300334: Texture Atlas Main_167
+    21300336: Texture Atlas Main_168
+    21300338: Texture Atlas Main_169
+    21300340: Texture Atlas Main_170
+    21300342: Texture Atlas Main_171
+    21300344: Texture Atlas Main_172
+    21300346: Texture Atlas Main_173
+    21300348: Texture Atlas Main_174
+    21300350: Texture Atlas Main_175
+    21300352: Texture Atlas Main_176
+    21300354: Texture Atlas Main_177
+    21300356: Texture Atlas Main_178
+    21300358: Texture Atlas Main_179
+    21300360: Texture Atlas Main_180
+    21300362: Texture Atlas Main_181
+    21300364: Texture Atlas Main_182
+    21300366: Texture Atlas Main_183
+    21300368: Texture Atlas Main_184
+    21300370: Texture Atlas Main_185
+    21300372: Texture Atlas Main_186
+    21300374: Texture Atlas Main_187
+    21300376: Texture Atlas Main_188
+    21300378: Texture Atlas Main_189
+    21300380: Texture Atlas Main_190
+    21300382: Texture Atlas Main_191
+    21300384: Texture Atlas Main_192
+    21300386: Texture Atlas Main_193
+    21300388: Texture Atlas Main_194
+    21300390: Texture Atlas Main_195
+    21300392: Texture Atlas Main_196
+    21300394: Texture Atlas Main_197
+    21300396: Texture Atlas Main_198
+    21300398: Texture Atlas Main_199
+    21300400: Texture Atlas Main_200
+    21300402: Texture Atlas Main_201
+    21300404: Texture Atlas Main_202
+    21300406: Texture Atlas Main_203
+    21300408: Texture Atlas Main_204
+    21300410: Texture Atlas Main_205
+    21300412: Texture Atlas Main_206
+    21300414: Texture Atlas Main_207
+    21300416: Texture Atlas Main_208
+    21300418: Texture Atlas Main_209
+    21300420: Texture Atlas Main_210
+    21300422: Texture Atlas Main_211
+    21300424: Texture Atlas Main_212
+    21300426: Texture Atlas Main_213
+    21300428: Texture Atlas Main_214
+    21300430: Texture Atlas Main_215
+    21300432: Texture Atlas Main_216
+    21300434: Texture Atlas Main_217
+    21300436: Texture Atlas Main_218
+    21300438: Texture Atlas Main_219
+    21300440: Texture Atlas Main_220
+    21300442: Texture Atlas Main_221
+    21300444: Texture Atlas Main_222
+    21300446: Texture Atlas Main_223
+    21300448: Texture Atlas Main_224
+    21300450: Texture Atlas Main_225
+    21300452: Texture Atlas Main_226
+    21300454: Texture Atlas Main_227
+    21300456: Texture Atlas Main_228
+    21300458: Texture Atlas Main_229
+    21300460: Texture Atlas Main_230
+    21300462: Texture Atlas Main_231
+    21300464: Texture Atlas Main_232
+    21300466: Texture Atlas Main_233
+    21300468: Texture Atlas Main_234
+    21300470: Texture Atlas Main_235
+    21300472: Texture Atlas Main_236
+    21300474: Texture Atlas Main_237
+    21300476: Texture Atlas Main_238
+    21300478: Texture Atlas Main_239
+    21300480: Texture Atlas Main_240
+    21300482: Texture Atlas Main_241
+    21300484: Texture Atlas Main_242
+    21300486: Texture Atlas Main_243
+    21300488: Texture Atlas Main_244
+    21300490: Texture Atlas Main_245
+    21300492: Texture Atlas Main_246
+    21300494: Texture Atlas Main_247
+    21300496: Texture Atlas Main_248
+    21300498: Texture Atlas Main_249
+    21300500: Texture Atlas Main_250
+    21300502: Texture Atlas Main_251
+    21300504: Texture Atlas Main_252
+    21300506: Texture Atlas Main_253
+    21300508: Texture Atlas Main_254
+    21300510: Texture Atlas Main_255
+    21300512: Texture Atlas Main_256
+    21300514: Texture Atlas Main_257
+    21300516: Texture Atlas Main_258
+    21300518: Texture Atlas Main_259
+    21300520: Texture Atlas Main_260
+    21300522: Texture Atlas Main_261
+    21300524: Texture Atlas Main_262
+    21300526: Texture Atlas Main_263
+    21300528: Texture Atlas Main_264
+    21300530: Texture Atlas Main_265
+    21300532: Texture Atlas Main_266
+    21300534: Texture Atlas Main_267
+    21300536: Texture Atlas Main_268
+    21300538: Texture Atlas Main_269
+    21300540: Texture Atlas Main_270
+    21300542: Texture Atlas Main_271
+    21300544: Texture Atlas Main_272
+    21300546: Texture Atlas Main_273
+    21300548: Texture Atlas Main_274
+    21300550: Texture Atlas Main_275
+    21300552: Texture Atlas Main_276
+    21300554: Texture Atlas Main_277
+    21300556: Texture Atlas Main_278
+    21300558: Texture Atlas Main_279
+    21300560: Texture Atlas Main_280
+    21300562: Texture Atlas Main_281
+    21300564: Texture Atlas Main_282
+    21300566: Texture Atlas Main_283
+    21300568: Texture Atlas Main_284
+    21300570: Texture Atlas Main_285
+    21300572: Texture Atlas Main_286
+    21300574: Texture Atlas Main_287
+    21300576: Texture Atlas Main_288
+    21300578: Texture Atlas Main_289
+    21300580: Texture Atlas Main_290
+    21300582: Texture Atlas Main_291
+    21300584: Texture Atlas Main_292
+    21300586: Texture Atlas Main_293
+    21300588: Texture Atlas Main_294
+    21300590: Texture Atlas Main_295
+    21300592: Texture Atlas Main_296
+    21300594: Texture Atlas Main_297
+    21300596: Texture Atlas Main_298
+    21300598: Texture Atlas Main_299
+    21300600: Texture Atlas Main_300
+    21300602: Texture Atlas Main_301
+    21300604: Texture Atlas Main_302
+    21300606: Texture Atlas Main_303
+    21300608: Texture Atlas Main_304
+    21300610: Texture Atlas Main_305
+    21300612: Texture Atlas Main_306
+    21300614: Texture Atlas Main_307
+    21300616: Texture Atlas Main_308
+    21300618: Texture Atlas Main_309
+    21300620: Texture Atlas Main_310
+    21300622: Texture Atlas Main_311
+    21300624: Texture Atlas Main_312
+    21300626: Texture Atlas Main_313
+    21300628: Texture Atlas Main_314
+    21300630: Texture Atlas Main_315
+    21300632: Texture Atlas Main_316
+    21300634: Texture Atlas Main_317
+    21300636: Texture Atlas Main_318
+    21300638: Texture Atlas Main_319
+    21300640: Texture Atlas Main_320
+    21300642: Texture Atlas Main_321
+    21300644: Texture Atlas Main_322
+    21300646: Texture Atlas Main_323
+    21300648: Texture Atlas Main_324
+    21300650: Texture Atlas Main_325
+    21300652: Texture Atlas Main_326
+    21300654: Texture Atlas Main_327
+    21300656: Texture Atlas Main_328
+    21300658: Texture Atlas Main_329
+    21300660: Texture Atlas Main_330
+    21300662: Texture Atlas Main_331
+    21300664: Texture Atlas Main_332
+    21300666: Texture Atlas Main_333
+    21300668: Texture Atlas Main_334
+    21300670: Texture Atlas Main_335
+    21300672: Texture Atlas Main_336
+    21300674: Texture Atlas Main_337
+    21300676: Texture Atlas Main_338
+    21300678: Texture Atlas Main_339
+    21300680: Texture Atlas Main_340
+    21300682: Texture Atlas Main_341
+    21300684: Texture Atlas Main_342
+    21300686: Texture Atlas Main_343
+    21300688: Texture Atlas Main_344
+    21300690: Texture Atlas Main_345
+    21300692: Texture Atlas Main_346
+    21300694: Texture Atlas Main_347
+    21300696: Texture Atlas Main_348
+    21300698: Texture Atlas Main_349
+    21300700: Texture Atlas Main_350
+    21300702: Texture Atlas Main_351
+    21300704: Texture Atlas Main_352
+    21300706: Texture Atlas Main_353
+    21300708: Texture Atlas Main_354
+    21300710: Texture Atlas Main_355
+    21300712: Texture Atlas Main_356
+    21300714: Texture Atlas Main_357
+    21300716: Texture Atlas Main_358
+    21300718: Texture Atlas Main_359
+    21300720: Texture Atlas Main_360
+    21300722: Texture Atlas Main_361
+    21300724: Texture Atlas Main_362
+    21300726: Texture Atlas Main_363
+    21300728: Texture Atlas Main_364
+    21300730: Texture Atlas Main_365
+    21300732: Texture Atlas Main_366
+    21300734: Texture Atlas Main_367
+    21300736: Texture Atlas Main_368
+    21300738: Texture Atlas Main_369
+    21300740: Texture Atlas Main_370
+    21300742: Texture Atlas Main_371
+    21300744: Texture Atlas Main_372
+    21300746: Texture Atlas Main_373
+    21300748: Texture Atlas Main_374
+    21300750: Texture Atlas Main_375
+    21300752: Texture Atlas Main_376
+    21300754: Texture Atlas Main_377
+    21300756: Texture Atlas Main_378
+    21300758: Texture Atlas Main_379
+    21300760: Texture Atlas Main_380
+    21300762: Texture Atlas Main_381
+    21300764: Texture Atlas Main_382
+    21300766: Texture Atlas Main_383
+    21300768: Texture Atlas Main_384
+    21300770: Texture Atlas Main_385
+    21300772: Texture Atlas Main_386
+    21300774: Texture Atlas Main_387
+    21300776: Texture Atlas Main_388
+    21300778: Texture Atlas Main_389
+    21300780: Texture Atlas Main_390
+    21300782: Texture Atlas Main_391
+    21300784: Texture Atlas Main_392
+    21300786: Texture Atlas Main_393
+    21300788: Texture Atlas Main_394
+    21300790: Texture Atlas Main_395
+    21300792: Texture Atlas Main_396
+    21300794: Texture Atlas Main_397
+    21300796: Texture Atlas Main_398
+    21300798: Texture Atlas Main_399
+    21300800: Texture Atlas Main_400
+    21300802: Texture Atlas Main_401
+    21300804: Texture Atlas Main_402
+    21300806: Texture Atlas Main_403
+    21300808: Texture Atlas Main_404
+    21300810: Texture Atlas Main_405
+    21300812: Texture Atlas Main_406
+    21300814: Texture Atlas Main_407
+    21300816: Texture Atlas Main_408
+    21300818: Texture Atlas Main_409
+    21300820: Texture Atlas Main_410
+    21300822: Texture Atlas Main_411
+    21300824: Texture Atlas Main_412
+    21300826: Texture Atlas Main_413
+    21300828: Texture Atlas Main_414
+    21300830: Texture Atlas Main_415
+    21300832: Texture Atlas Main_416
+    21300834: Texture Atlas Main_417
+    21300836: Texture Atlas Main_418
+    21300838: Texture Atlas Main_419
+    21300840: Texture Atlas Main_420
+    21300842: Texture Atlas Main_421
+    21300844: Texture Atlas Main_422
+    21300846: Texture Atlas Main_423
+    21300848: Texture Atlas Main_424
+    21300850: Texture Atlas Main_425
+    21300852: Texture Atlas Main_426
+    21300854: Texture Atlas Main_427
+    21300856: Texture Atlas Main_428
+    21300858: Texture Atlas Main_429
+    21300860: Texture Atlas Main_430
+    21300862: Texture Atlas Main_431
+    21300864: Texture Atlas Main_432
+    21300866: Texture Atlas Main_433
+    21300868: Texture Atlas Main_434
+    21300870: Texture Atlas Main_435
+    21300872: Texture Atlas Main_436
+    21300874: Texture Atlas Main_437
+    21300876: Texture Atlas Main_438
+    21300878: Texture Atlas Main_439
+    21300880: Texture Atlas Main_440
+    21300882: Texture Atlas Main_441
+    21300884: Texture Atlas Main_442
+    21300886: Texture Atlas Main_443
+    21300888: Texture Atlas Main_444
+    21300890: Texture Atlas Main_445
+    21300892: Texture Atlas Main_446
+    21300894: Texture Atlas Main_447
+    21300896: Texture Atlas Main_448
+    21300898: Texture Atlas Main_449
+    21300900: Texture Atlas Main_450
+    21300902: Texture Atlas Main_451
+    21300904: Texture Atlas Main_452
+    21300906: Texture Atlas Main_453
+    21300908: Texture Atlas Main_454
+    21300910: Texture Atlas Main_455
+    21300912: Texture Atlas Main_456
+    21300914: Texture Atlas Main_457
+    21300916: Texture Atlas Main_458
+    21300918: Texture Atlas Main_459
+    21300920: Texture Atlas Main_460
+    21300922: Texture Atlas Main_461
+    21300924: Texture Atlas Main_462
+    21300926: Texture Atlas Main_463
+    21300928: Texture Atlas Main_464
+    21300930: Texture Atlas Main_465
+    21300932: Texture Atlas Main_466
+    21300934: Texture Atlas Main_467
+    21300936: Texture Atlas Main_468
+    21300938: Texture Atlas Main_469
+    21300940: Texture Atlas Main_470
+    21300942: Texture Atlas Main_471
+    21300944: Texture Atlas Main_472
+    21300946: Texture Atlas Main_473
+    21300948: Texture Atlas Main_474
+    21300950: Texture Atlas Main_475
+    21300952: Texture Atlas Main_476
+    21300954: Texture Atlas Main_477
+    21300956: Texture Atlas Main_478
+    21300958: Texture Atlas Main_479
+    21300960: Texture Atlas Main_480
+    21300962: Texture Atlas Main_481
+    21300964: Texture Atlas Main_482
+    21300966: Texture Atlas Main_483
+    21300968: Texture Atlas Main_484
+    21300970: Texture Atlas Main_485
+    21300972: Texture Atlas Main_486
+    21300974: Texture Atlas Main_487
+    21300976: Texture Atlas Main_488
+    21300978: Texture Atlas Main_489
+    21300980: Texture Atlas Main_490
+    21300982: Texture Atlas Main_491
+    21300984: Texture Atlas Main_492
+    21300986: Texture Atlas Main_493
+    21300988: Texture Atlas Main_494
+    21300990: Texture Atlas Main_495
+    21300992: Texture Atlas Main_496
+    21300994: Texture Atlas Main_497
+    21300996: Texture Atlas Main_498
+    21300998: Texture Atlas Main_499
+    21301000: Texture Atlas Main_500
+    21301002: Texture Atlas Main_501
+    21301004: Texture Atlas Main_502
+    21301006: Texture Atlas Main_503
+    21301008: Texture Atlas Main_504
+    21301010: Texture Atlas Main_505
+    21301012: Texture Atlas Main_506
+    21301014: Texture Atlas Main_507
+    21301016: Texture Atlas Main_508
+    21301018: Texture Atlas Main_509
+    21301020: Texture Atlas Main_510
+    21301022: Texture Atlas Main_511
+    21301024: Texture Atlas Main_512
+    21301026: Texture Atlas Main_513
+    21301028: Texture Atlas Main_514
+    21301030: Texture Atlas Main_515
+    21301032: Texture Atlas Main_516
+    21301034: Texture Atlas Main_517
+    21301036: Texture Atlas Main_518
+    21301038: Texture Atlas Main_519
+    21301040: Texture Atlas Main_520
+    21301042: Texture Atlas Main_521
+    21301044: Texture Atlas Main_522
+    21301046: Texture Atlas Main_523
+    21301048: Texture Atlas Main_524
+    21301050: Texture Atlas Main_525
+    21301052: Texture Atlas Main_526
+    21301054: Texture Atlas Main_527
+    21301056: Texture Atlas Main_528
+    21301058: Texture Atlas Main_529
+    21301060: Texture Atlas Main_530
+    21301062: Texture Atlas Main_531
+    21301064: Texture Atlas Main_532
+    21301066: Texture Atlas Main_533
+    21301068: Texture Atlas Main_534
+    21301070: Texture Atlas Main_535
+    21301072: Texture Atlas Main_536
+    21301074: Texture Atlas Main_537
+    21301076: Texture Atlas Main_538
+    21301078: Texture Atlas Main_539
+    21301080: Texture Atlas Main_540
+    21301082: Texture Atlas Main_541
+    21301084: Texture Atlas Main_542
+    21301086: Texture Atlas Main_543
+    21301088: Texture Atlas Main_544
+    21301090: Texture Atlas Main_545
+    21301092: Texture Atlas Main_546
+    21301094: Texture Atlas Main_547
+    21301096: Texture Atlas Main_548
+    21301098: Texture Atlas Main_549
+    21301100: Texture Atlas Main_550
+    21301102: Texture Atlas Main_551
+    21301104: Texture Atlas Main_552
+    21301106: Texture Atlas Main_553
+    21301108: Texture Atlas Main_554
+    21301110: Texture Atlas Main_555
+    21301112: Texture Atlas Main_556
+    21301114: Texture Atlas Main_557
+    21301116: Texture Atlas Main_558
+    21301118: Texture Atlas Main_559
+    21301120: Texture Atlas Main_560
+    21301122: Texture Atlas Main_561
+    21301124: Texture Atlas Main_562
+    21301126: Texture Atlas Main_563
+    21301128: Texture Atlas Main_564
+    21301130: Texture Atlas Main_565
+    21301132: Texture Atlas Main_566
+    21301134: Texture Atlas Main_567
+    21301136: Texture Atlas Main_568
+    21301138: Texture Atlas Main_569
+    21301140: Texture Atlas Main_570
+    21301142: Texture Atlas Main_571
+    21301144: Texture Atlas Main_572
+    21301146: Texture Atlas Main_573
+    21301148: Texture Atlas Main_574
+    21301150: Texture Atlas Main_575
+    21301152: Texture Atlas Main_576
+    21301154: Texture Atlas Main_577
+    21301156: Texture Atlas Main_578
+    21301158: Texture Atlas Main_579
+    21301160: Texture Atlas Main_580
+    21301162: Texture Atlas Main_581
+    21301164: Texture Atlas Main_582
+    21301166: Texture Atlas Main_583
+    21301168: Texture Atlas Main_584
+    21301170: Texture Atlas Main_585
+    21301172: Texture Atlas Main_586
+    21301174: Texture Atlas Main_587
+    21301176: Texture Atlas Main_588
+    21301178: Texture Atlas Main_589
+    21301180: Texture Atlas Main_590
+    21301182: Texture Atlas Main_591
+    21301184: Texture Atlas Main_592
+    21301186: Texture Atlas Main_593
+    21301188: Texture Atlas Main_594
+    21301190: Texture Atlas Main_595
+    21301192: Texture Atlas Main_596
+    21301194: Texture Atlas Main_597
+    21301196: Texture Atlas Main_598
+    21301198: Texture Atlas Main_599
+    21301200: Texture Atlas Main_600
+    21301202: Texture Atlas Main_601
+    21301204: Texture Atlas Main_602
+    21301206: Texture Atlas Main_603
+    21301208: Texture Atlas Main_604
+    21301210: Texture Atlas Main_605
+    21301212: Texture Atlas Main_606
+    21301214: Texture Atlas Main_607
+    21301216: Texture Atlas Main_608
+    21301218: Texture Atlas Main_609
+    21301220: Texture Atlas Main_610
+    21301222: Texture Atlas Main_611
+    21301224: Texture Atlas Main_612
+    21301226: Texture Atlas Main_613
+    21301228: Texture Atlas Main_614
+    21301230: Texture Atlas Main_615
+    21301232: Texture Atlas Main_616
+    21301234: Texture Atlas Main_617
+    21301236: Texture Atlas Main_618
+    21301238: Texture Atlas Main_619
+    21301240: Texture Atlas Main_620
+    21301242: Texture Atlas Main_621
+    21301244: Texture Atlas Main_622
+    21301246: Texture Atlas Main_623
+    21301248: Texture Atlas Main_624
+    21301250: Texture Atlas Main_625
+    21301252: Texture Atlas Main_626
+>>>>>>> origin/master
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -29,8 +664,13 @@ TextureImporter:
   textureFormat: -1
   maxTextureSize: 2048
   textureSettings:
+<<<<<<< HEAD
     filterMode: -1
     aniso: -1
+=======
+    filterMode: 0
+    aniso: 16
+>>>>>>> origin/master
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
@@ -38,7 +678,11 @@ TextureImporter:
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
+<<<<<<< HEAD
   spriteMode: 1
+=======
+  spriteMode: 2
+>>>>>>> origin/master
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -48,10 +692,321 @@ TextureImporter:
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
+<<<<<<< HEAD
   buildTargetSettings: []
   spriteSheet:
     serializedVersion: 2
     sprites: []
+=======
+  buildTargetSettings:
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -3
+    compressionQuality: 50
+    allowsAlphaSplitting: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Texture Atlas Main_2
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 1887
+        width: 381
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Texture Atlas Main_3
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 1661
+        width: 385
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Texture Atlas Main_4
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 1847
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Texture Atlas Main_5
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 1660
+        width: 388
+        height: 388
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Texture Atlas Main_8
+      rect:
+        serializedVersion: 2
+        x: 1318
+        y: 1692
+        width: 308
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Texture Atlas Main_9
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 1869
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Texture Atlas Main_10
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 1673
+        width: 382
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Texture Atlas Main_11
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 1600
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Texture Atlas Main_12
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1133
+        width: 1327
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Texture Atlas Main_13
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 1444
+        width: 384
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Texture Atlas Main_14
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 512
+        width: 1331
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Texture Atlas Main_15
+      rect:
+        serializedVersion: 2
+        x: 1411
+        y: 789
+        width: 604
+        height: 605
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Texture Atlas Main_16
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 442
+        width: 197
+        height: 248
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Texture Atlas Main_17
+      rect:
+        serializedVersion: 2
+        x: 1722
+        y: 442
+        width: 315
+        height: 286
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Texture Atlas Main_18
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 0
+        width: 353
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Texture Atlas Main_19
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 69
+        width: 117
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Texture Atlas Main_20
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 384
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Texture Atlas Main_21
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 17
+        width: 221
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Texture Atlas Main_22
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 3
+        width: 384
+        height: 183
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Texture Atlas Main_23
+      rect:
+        serializedVersion: 2
+        x: 1835
+        y: 14
+        width: 57
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Texture Atlas Main_24
+      rect:
+        serializedVersion: 2
+        x: 1951
+        y: 14
+        width: 37
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Texture Atlas Main_25
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 1581
+        width: 383
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Texture Atlas Main_0
+      rect:
+        serializedVersion: 2
+        x: 1697
+        y: 48
+        width: 64
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+>>>>>>> origin/master
     outline: []
   spritePackingTag: 
   userData: 

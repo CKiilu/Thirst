@@ -11,6 +11,8 @@ public class MoveScript : MonoBehaviour {
 
     public string checkPlacement = "";
 
+    public float yDiff; 
+
 	// Use this for initialization
 	void Start () {
 	
@@ -18,6 +20,8 @@ public class MoveScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+
+        invControl();
 
         if (pieceStatus == "pickedup") { 
 
@@ -27,7 +31,7 @@ public class MoveScript : MonoBehaviour {
 
         }
 
-        if (Input.GetKeyDown(placePiece)) {
+        if ((Input.GetKeyDown(placePiece)) && (pieceStatus == "pickedup" )) {
 
             checkPlacement = "y";
 
@@ -40,6 +44,7 @@ public class MoveScript : MonoBehaviour {
         if ((other.gameObject.name == gameObject.name) && (checkPlacement == "y"))
         {
             other.GetComponent<BoxCollider2D>().enabled = false;
+            GetComponent<Renderer>().sortingOrder = 0;
             GetComponent<BoxCollider2D>().enabled = false;
 
             transform.position = other.gameObject.transform.position;
@@ -66,6 +71,24 @@ public class MoveScript : MonoBehaviour {
 
         pieceStatus = "pickedup";
         checkPlacement = "n";
+        GetComponent<Renderer>().sortingOrder = 10;
+
+    }
+
+    void invControl() {
+        if (Input.GetAxis("Mouse ScrollWheel")>0)
+        {
+
+            transform.position = new Vector2 (-9.0f, transform.position.y - 2.4f);
+
+        }
+
+        if (Input.GetAxis("Mouse ScrollWheel") < 0)
+        {
+
+            transform.position = new Vector2(-9.0f, transform.position.y + 2.4f);
+
+        }
 
     }
 }
