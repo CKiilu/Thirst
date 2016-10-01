@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using System.Collections;
 
 public class ItemCollection : MonoBehaviour {
 
@@ -11,6 +10,7 @@ public class ItemCollection : MonoBehaviour {
     {
         if (other.gameObject.CompareTag("Player"))
         {
+
             Destroy(gameObject);
             ScoreManager.score += 1;
         }
