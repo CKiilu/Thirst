@@ -3,7 +3,10 @@ using System.Collections;
 
 public class PlayerController: MonoBehaviour {
 
+    public static bool overrideMovementLock = true;
+
     public float jumpHeight, speed;
+    public bool movementLockValue;
 
     private Animator playerAnimator;
     private Rigidbody2D player;
@@ -11,6 +14,7 @@ public class PlayerController: MonoBehaviour {
 
     
 	void Start () {
+        overrideMovementLock = movementLockValue;
         player = GetComponent<Rigidbody2D>();
         playerAnimator = GetComponentInChildren<Animator>();
     }
@@ -19,7 +23,7 @@ public class PlayerController: MonoBehaviour {
 	void FixedUpdate () {
         float moveHorizontal = Input.GetAxisRaw("Horizontal");
         float moveVertical = Input.GetAxisRaw("Vertical");
-        if (MonologueManager.playerMove)
+        if (MonologueManager.playerMove || overrideMovementLock)
         {
             Move(moveHorizontal, 0);
             if (grounded && moveVertical > 0)
