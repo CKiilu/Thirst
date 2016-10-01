@@ -14,6 +14,6 @@ public class ScoreManager : MonoBehaviour {
     }
     
 	void Update () {
-        scoreText.text = score + "/" + itemCount + " collected";
+        scoreText.text = score + " / " + itemCount + " collected";
 	}
  }

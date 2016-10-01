@@ -19,16 +19,19 @@ public class PlayerController: MonoBehaviour {
 	void FixedUpdate () {
         float moveHorizontal = Input.GetAxisRaw("Horizontal");
         float moveVertical = Input.GetAxisRaw("Vertical");
-        Move(moveHorizontal, 0);
-        if (grounded && moveVertical > 0)
+        if (MonologueManager.playerMove)
         {
-            Jump();
-            playerAnimator.SetBool("isWalking", false);
-        }
+            Move(moveHorizontal, 0);
+            if (grounded && moveVertical > 0)
+            {
+                Jump();
+                playerAnimator.SetBool("isWalking", false);
+            }
 
-        if (player.velocity.y == 0 && !grounded)
-        {
-            setGrounded(true);
+            if (player.velocity.y == 0 && !grounded)
+            {
+                setGrounded(true);
+            }
         }
     }
 

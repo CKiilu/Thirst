@@ -2,9 +2,13 @@
 using UnityEngine.SceneManagement;
 using System.Collections;
 
-public class EnemyController : MonoBehaviour {
-    private Rigidbody2D enemy;
+public class EnemyController : MonoBehaviour
+{
     public Vector3 movementDirection;
+    public Sprite[] enemySprites;
+    public string direction;
+
+    private Rigidbody2D enemy;
 
     void Start()
     {
