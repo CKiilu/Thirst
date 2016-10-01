@@ -2,17 +2,23 @@
 using UnityEngine.SceneManagement;
 using System.Collections;
 
-public class EnemyController : MonoBehaviour {
-    private Rigidbody2D enemy;
+public class EnemyController : MonoBehaviour
+{
     public Vector3 movementDirection;
+    public Sprite[] enemySprites;
+
+    private bool flipValue = true;
+    private Rigidbody2D enemyRigidbody;
+    private SpriteRenderer enemySpriteRenderer;
 
     void Start()
     {
-        enemy = GetComponent<Rigidbody2D>();
+        enemyRigidbody = GetComponent<Rigidbody2D>();
+        enemySpriteRenderer = GetComponentInChildren<SpriteRenderer>();
     }
     void Update()
     {
-        enemy.transform.Translate(movementDirection * Time.deltaTime);
+        enemyRigidbody.transform.Translate(movementDirection * Time.deltaTime);
     }
 
     void OnTriggerEnter2D(Collider2D other)
@@ -20,6 +26,8 @@ public class EnemyController : MonoBehaviour {
         if (other.gameObject.CompareTag("Edge"))
         {
             movementDirection *= -1;
+            enemySpriteRenderer.flipX = flipValue;
+            flipValue = !flipValue;
         }
     }
 }
