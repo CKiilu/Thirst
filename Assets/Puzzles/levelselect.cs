@@ -34,8 +34,6 @@ public class levelselect : MonoBehaviour {
         
  
         Debug.Log(gameObject.name);
-
-
         
     }
 
@@ -43,40 +41,34 @@ public class levelselect : MonoBehaviour {
     {
         yield return new WaitForSeconds(3);
 
-
-        if (gameObject.name == "Ending")
+        switch (gameObject.name)
         {
-            whichLevel = 1; //This id for testing purposes. Comment when done
-            
-            SceneManager.LoadScene("puzzle_1");
+            case "Ending":
+                whichLevel = 1; //This id for testing purposes. Comment when done
+
+                SceneManager.LoadScene("puzzle_1");
+                break;
 
 
+            case "Prologue":
+                whichLevel = 2; //This id for testing purposes. Comment when done
+
+                SceneManager.LoadScene("Level1");
+                break;
+
+            case "The Town":
+                whichLevel = 3; //This id for testing purposes. Comment when done
+
+                //SceneManager.LoadScene("Level2");
+                break;
+
+
+            case "The Forest":
+                whichLevel = 4; //This id for testing purposes. Comment when done
+
+                //SceneManager.LoadScene("Level3");
+
+                break;
         }
-
-
-        if (gameObject.name == "Prologue")
-        {
-            whichLevel = 2; //This id for testing purposes. Comment when done
-            
-            SceneManager.LoadScene("Level1");
-
-        }
-
-        if (gameObject.name == "The Town")
-        {
-            whichLevel = 3; //This id for testing purposes. Comment when done
-            
-            //SceneManager.LoadScene("Level2");
-
-        }
-
-        if (gameObject.name == "The Forest")
-        {
-            whichLevel = 4; //This id for testing purposes. Comment when done
-            
-            //SceneManager.LoadScene("Level3");
-
-        }
-
     }
 }
