@@ -8,18 +8,39 @@ public class MoveScript : MonoBehaviour {
     public Transform edgeParticles;
 
     public KeyCode placePiece;
+    public KeyCode returntoInv;
 
     public string checkPlacement = "";
 
-    public float yDiff; 
+    public float yDiff;
+    public Vector2 invPos;
+
+    public Sprite stage2Image;
+
+    public static int totalScore;
+
+    public static float timeBonus = 120 ;
+
+    
 
 	// Use this for initialization
-	void Start () {
+	void Start ()
+    {
+
+        if(levelselect.whichLevel == 5)
+        {
+            GetComponent<SpriteRenderer>().sprite = stage2Image;
+
+        }
 	
 	}
 	
 	// Update is called once per frame
 	void Update () {
+
+        //timeBonus -= Time.deltaTime;
+
+
 
         invControl();
 
@@ -54,6 +75,9 @@ public class MoveScript : MonoBehaviour {
 
             GetComponent<SpriteRenderer>().color = new Color(1, 1, 1, 1);
 
+            totalScore += 10;
+            gameMaster.remainingPieces -= 1;
+
 
         }
 
@@ -61,6 +85,8 @@ public class MoveScript : MonoBehaviour {
 
             GetComponent<SpriteRenderer>().color = new Color (1,1,1,.5f);
             checkPlacement = "n";
+
+            totalScore -= 2;
 
 
         }
@@ -72,21 +98,31 @@ public class MoveScript : MonoBehaviour {
         pieceStatus = "pickedup";
         checkPlacement = "n";
         GetComponent<Renderer>().sortingOrder = 10;
+        invPos = transform.position;
 
     }
 
     void invControl() {
-        if (Input.GetAxis("Mouse ScrollWheel")>0)
+        if ((Input.GetAxis("Mouse ScrollWheel")>0) && (pieceStatus != "locked"))
         {
 
-            transform.position = new Vector2 (-9.0f, transform.position.y - 2.4f);
+            transform.position = new Vector2 (-10.0f, transform.position.y - 2.4f);
+            yDiff -= 2.4f;
 
         }
 
-        if (Input.GetAxis("Mouse ScrollWheel") < 0)
+        if ((Input.GetAxis("Mouse ScrollWheel") < 0) && (pieceStatus != "locked"))
         {
 
-            transform.position = new Vector2(-9.0f, transform.position.y + 2.4f);
+            transform.position = new Vector2(-10.0f, transform.position.y + 2.4f);
+            yDiff += 2.4f;
+
+        }
+
+        if ((Input.GetKeyDown (returntoInv)) && (pieceStatus == "pickedup"))
+        {
+            transform.position = new Vector2(-10.0f, invPos.y + yDiff);
+            pieceStatus = "";
 
         }
 
