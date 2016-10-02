@@ -11,7 +11,10 @@ public class GameOverManager : MonoBehaviour {
     void Start () {
         restartText.text = "";
         gameoverText.text = "";
-        receiveItemText.text = "";
+        if (receiveItemText)
+        {
+            receiveItemText.text = "";
+        }
     }
 	
 	void Update () {
@@ -22,6 +25,7 @@ public class GameOverManager : MonoBehaviour {
             if (Input.GetKeyDown(KeyCode.R))
             {
                 SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+                ScoreManager.score = 0;
             }
         }
     }

@@ -59,7 +59,7 @@ public class levelselect : MonoBehaviour {
             case "The Town":
                 whichLevel = 3; //This id for testing purposes. Comment when done
 
-                //SceneManager.LoadScene("Level2");
+                SceneManager.LoadScene("Level2");
                 break;
 
 

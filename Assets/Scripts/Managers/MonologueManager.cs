@@ -15,7 +15,7 @@ public class MonologueManager : MonoBehaviour {
     public bool triggered;
 
     private bool isWriting = false, endofMonologue = false, firstContact = true, hasReward;
-    private int currentIndex;
+    private int currentIndex, arrayLength;
     private StringBuilder currentLine;
     private Text monologueText;
     private Animator animator;
@@ -26,6 +26,7 @@ public class MonologueManager : MonoBehaviour {
         monologueText = monologuePanel.GetComponentInChildren<Text>();
         animator = GetComponent<Animator>();
         currentIndex = 0;
+        arrayLength = monologueString.Length;
         hasReward = triggered;
         if (!triggered)
         {
@@ -34,7 +35,8 @@ public class MonologueManager : MonoBehaviour {
         }
     }
 
-    void FixedUpdate () {
+    void FixedUpdate ()
+    {
         if (Input.GetKeyUp(KeyCode.Space) && currentIndex + 1 < monologueString.Length && !isWriting)
         {
             if (!triggered)
@@ -46,10 +48,8 @@ public class MonologueManager : MonoBehaviour {
         {
             monologuePanel.SetActive(false);
             playerMove = true;
-            if (hasReward)
-            {
-                StartCoroutine(ReceiveItem());
-            }
+            StartCoroutine(ReceiveItem());
+            
             if (npcController)
             {
                 npcController.Move();
@@ -69,13 +69,13 @@ public class MonologueManager : MonoBehaviour {
             monologuePanel.SetActive(true);
             firstContact = false;
             triggered = false;
+            playerMove = false;
             other.gameObject.GetComponentInParent<Rigidbody2D>().velocity = Vector3.zero;
             other.gameObject.GetComponentInParent<PlayerController>().AnimateMovement(false);
             if (animator)
             {
                 AnimateMovement(false);
             }
-            PlayerController.overrideMovementLock = false;
             npcController = gameObject.GetComponent<NPCController>();
             if (npcController)
             {
@@ -100,17 +100,20 @@ public class MonologueManager : MonoBehaviour {
         }
         isWriting = false;
 
-        if (currentIndex + 1 == monologueString.Length)
-        {
-            endofMonologue = true;
-        }
+        endofMonologue = (currentIndex + 1 == arrayLength);
+
     }
 
     IEnumerator ReceiveItem()
     {
-        receiveItemText.text = "You have received an item!";
-        yield return new WaitForSeconds(1.5f);
-        receiveItemText.text = "";
+
+        if (hasReward)
+        {
+            receiveItemText.text = "You have received an item!";
+            yield return new WaitForSeconds(1.5f);
+            receiveItemText.text = "";
+            ScoreManager.score++;
+        }
         Destroy(this);
     }
 
