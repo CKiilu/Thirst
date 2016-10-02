@@ -58,7 +58,6 @@ public class MonologueManager : MonoBehaviour {
                     AnimateMovement(true);
                 }
             }
-            Destroy(this);            
         }
     }
 
@@ -110,10 +109,10 @@ public class MonologueManager : MonoBehaviour {
     IEnumerator ReceiveItem()
     {
         receiveItemText.text = "You have received an item!";
-        yield return new WaitForSeconds(4f);
+        yield return new WaitForSeconds(1.5f);
         receiveItemText.text = "";
+        Destroy(this);
     }
-
 
     public void AnimateMovement(bool val)
     {
