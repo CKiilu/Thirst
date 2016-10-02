@@ -75,4 +75,9 @@ public class PlayerController: MonoBehaviour {
     {
         return dead;
     }
+
+    public void AnimateMovement(bool val)
+    {
+        playerAnimator.SetBool("isWalking", val);
+    }
 }

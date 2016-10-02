@@ -7,10 +7,10 @@ public class AnimationController : MonoBehaviour {
 
 	void Start () {
         animator = GetComponent<Animator>();
-	}
+        animator.SetBool("isWalking", true);
+    }
 	
 	void Update () {
-        animator.SetBool("isWalking", true);
 	}
 
     void OnTriggerEnter2D(Collider2D other)

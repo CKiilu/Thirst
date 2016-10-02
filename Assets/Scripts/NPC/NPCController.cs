@@ -37,7 +37,7 @@ public class NPCController : MonoBehaviour
         canMove = true;
     }
 
-    public void Stop()
+    public void StopMovement()
     {
         canMove = false;
     }

@@ -6,11 +6,12 @@ using System.Collections;
 public class GameOverManager : MonoBehaviour {
 
     public PlayerController player;
-    public Text restartText, gameoverText;
+    public Text restartText, gameoverText, receiveItemText;
 
     void Start () {
         restartText.text = "";
         gameoverText.text = "";
+        receiveItemText.text = "";
     }
 	
 	void Update () {
