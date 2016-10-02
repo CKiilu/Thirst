@@ -14,7 +14,7 @@ public class MonologueManager : MonoBehaviour {
     public float textWriteSpeed;
     public bool triggered;
 
-    private bool isWriting = false, endofMonologue = false, firstContact = true;
+    private bool isWriting = false, endofMonologue = false, firstContact = true, hasReward;
     private int currentIndex;
     private StringBuilder currentLine;
     private Text monologueText;
@@ -26,6 +26,7 @@ public class MonologueManager : MonoBehaviour {
         monologueText = monologuePanel.GetComponentInChildren<Text>();
         animator = GetComponent<Animator>();
         currentIndex = 0;
+        hasReward = triggered;
         if (!triggered)
         {
             monologuePanel.SetActive(true);
@@ -33,57 +34,34 @@ public class MonologueManager : MonoBehaviour {
         }
     }
 
-    IEnumerator WriteText(string strComplete)
-    {
-        int i = 0;
-        isWriting = true;
-        currentLine = new StringBuilder();
-        strComplete = Regex.Unescape(strComplete);
-        while (i < strComplete.Length)
-        {
-            currentLine.Append(strComplete[i++]);
-            monologueText.text = currentLine.ToString();
-            if (i != strComplete.Length)
-            {
-                yield return new WaitForSeconds(textWriteSpeed);
-            }
-        }
-        isWriting = false;
-        if(currentIndex + 1 == monologueString.Length)
-        {
-            endofMonologue = true;
-        }
-    }
-
     void FixedUpdate () {
-        if (Input.GetKeyDown(KeyCode.Space) && currentIndex + 1 < monologueString.Length && !isWriting)
+        if (Input.GetKeyUp(KeyCode.Space) && currentIndex + 1 < monologueString.Length && !isWriting)
         {
             if (!triggered)
             {
                 StartCoroutine(WriteText(monologueString[++currentIndex]));
             }
         }
-        if (endofMonologue && Input.GetKeyDown(KeyCode.Space))
+        if (endofMonologue && Input.GetKeyUp(KeyCode.Space))
         {
             monologuePanel.SetActive(false);
             playerMove = true;
-            if (npcController)
+            if (hasReward)
             {
                 StartCoroutine(ReceiveItem());
+            }
+            if (npcController)
+            {
                 npcController.Move();
                 if (animator)
                 {
                     AnimateMovement(true);
                 }
-            }            
+            }
+            Destroy(this);            
         }
     }
-    IEnumerator ReceiveItem()
-    {
-        receiveItemText.text = "You have received an item!";
-        yield return new WaitForSeconds(4f);
-        receiveItemText.text = "";
-    }
+
 
     void OnTriggerEnter2D(Collider2D other)
     {
@@ -100,10 +78,43 @@ public class MonologueManager : MonoBehaviour {
             }
             PlayerController.overrideMovementLock = false;
             npcController = gameObject.GetComponent<NPCController>();
-            npcController.StopMovement();
+            if (npcController)
+            {
+                npcController.StopMovement();
+            }
             StartCoroutine(WriteText(monologueString[currentIndex]));
         }
     }
+
+
+    IEnumerator WriteText(string strComplete)
+    {
+        int i = 0;
+        isWriting = true;
+        currentLine = new StringBuilder();
+        strComplete = Regex.Unescape(strComplete);
+        while(i < strComplete.Length)
+        {
+            currentLine.Append(strComplete[i++]);
+            monologueText.text = currentLine.ToString();
+            yield return new WaitForSeconds(textWriteSpeed);
+        }
+        isWriting = false;
+
+        if (currentIndex + 1 == monologueString.Length)
+        {
+            endofMonologue = true;
+        }
+    }
+
+    IEnumerator ReceiveItem()
+    {
+        receiveItemText.text = "You have received an item!";
+        yield return new WaitForSeconds(4f);
+        receiveItemText.text = "";
+    }
+
+
     public void AnimateMovement(bool val)
     {
         animator.SetBool("isWalking", val);
